@@ -5,6 +5,7 @@ package com.mjscode.jvm;
  */
 public class TestVolatile {
     public static volatile int path = 0;
+    public static int compare = 0;
     public static void increase(){
         path++;
     }
